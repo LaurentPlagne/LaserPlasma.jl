@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Ewald splitting: a periodic charge">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M 0 0 L 10 4 L 0 8 z" fill="#183047"/></marker></defs>
+<rect x="0" y="0" width="960" height="540" rx="0" fill="#f3f7fa" stroke="none" stroke-width="1"/>
+<text x="48" y="51" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" text-anchor="start">Ewald splitting: a periodic charge</text>
+<text x="48" y="81" fill="#5d7180" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">Add and subtract a smooth Gaussian around every point charge</text>
+<rect x="45" y="132" width="268" height="305" rx="12" fill="white" stroke="#dce5ec" stroke-width="1"/>
+<text x="63" y="168" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="start">periodic points</text>
+<rect x="345" y="132" width="268" height="305" rx="12" fill="white" stroke="#dce5ec" stroke-width="1"/>
+<text x="363" y="168" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="start">point − Gaussian</text>
+<rect x="645" y="132" width="268" height="305" rx="12" fill="white" stroke="#dce5ec" stroke-width="1"/>
+<text x="663" y="168" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="start">Gaussian lattice</text>
+<line x1="65" y1="360" x2="295" y2="360" stroke="#5d7180" stroke-width="1"/>
+<line x1="365" y1="360" x2="595" y2="360" stroke="#5d7180" stroke-width="1"/>
+<line x1="665" y1="360" x2="895" y2="360" stroke="#5d7180" stroke-width="1"/>
+<line x1="95" y1="355" x2="95" y2="240" stroke="#d54c40" stroke-width="4"/>
+<line x1="145" y1="355" x2="145" y2="240" stroke="#d54c40" stroke-width="4"/>
+<line x1="195" y1="355" x2="195" y2="240" stroke="#d54c40" stroke-width="4"/>
+<line x1="245" y1="355" x2="245" y2="240" stroke="#d54c40" stroke-width="4"/>
+<polyline points="373.0,358.5 375.0,360.1 377.0,362.1 379.0,364.6 381.0,367.6 383.0,370.8 385.0,374.2 387.0,377.6 389.0,380.6 391.0,382.9 393.0,384.5 395.0,385.0 397.0,384.5 399.0,382.9 401.0,380.6 403.0,377.6 405.0,374.2 407.0,370.8 409.0,367.6 411.0,364.6 413.0,362.1 415.0,360.1 417.0,358.5" fill="none" stroke="#d54c40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="395" y1="355" x2="395" y2="240" stroke="#d54c40" stroke-width="3"/>
+<polyline points="423.0,358.5 425.0,360.1 427.0,362.1 429.0,364.6 431.0,367.6 433.0,370.8 435.0,374.2 437.0,377.6 439.0,380.6 441.0,382.9 443.0,384.5 445.0,385.0 447.0,384.5 449.0,382.9 451.0,380.6 453.0,377.6 455.0,374.2 457.0,370.8 459.0,367.6 461.0,364.6 463.0,362.1 465.0,360.1 467.0,358.5" fill="none" stroke="#d54c40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="445" y1="355" x2="445" y2="240" stroke="#d54c40" stroke-width="3"/>
+<polyline points="473.0,358.5 475.0,360.1 477.0,362.1 479.0,364.6 481.0,367.6 483.0,370.8 485.0,374.2 487.0,377.6 489.0,380.6 491.0,382.9 493.0,384.5 495.0,385.0 497.0,384.5 499.0,382.9 501.0,380.6 503.0,377.6 505.0,374.2 507.0,370.8 509.0,367.6 511.0,364.6 513.0,362.1 515.0,360.1 517.0,358.5" fill="none" stroke="#d54c40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="495" y1="355" x2="495" y2="240" stroke="#d54c40" stroke-width="3"/>
+<polyline points="523.0,358.5 525.0,360.1 527.0,362.1 529.0,364.6 531.0,367.6 533.0,370.8 535.0,374.2 537.0,377.6 539.0,380.6 541.0,382.9 543.0,384.5 545.0,385.0 547.0,384.5 549.0,382.9 551.0,380.6 553.0,377.6 555.0,374.2 557.0,370.8 559.0,367.6 561.0,364.6 563.0,362.1 565.0,360.1 567.0,358.5" fill="none" stroke="#d54c40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="545" y1="355" x2="545" y2="240" stroke="#d54c40" stroke-width="3"/>
+<polyline points="665.0,351.0 668.0,348.1 671.0,344.0 674.0,338.3 677.0,331.1 680.0,322.5 683.0,313.3 686.0,304.4 689.0,296.8 692.0,291.8 695.0,290.0 698.0,291.7 701.0,296.7 704.0,304.0 707.0,312.6 710.0,321.1 713.0,328.3 716.0,333.5 719.0,335.9 722.0,335.4 725.0,332.0 728.0,326.1 731.0,318.3 734.0,309.7 737.0,301.4 740.0,294.7 743.0,290.7 746.0,290.1 749.0,293.0 752.0,298.9 755.0,306.8 758.0,315.5 761.0,323.7 764.0,330.3 767.0,334.6 770.0,336.1 773.0,334.6 776.0,330.3 779.0,323.7 782.0,315.5 785.0,306.8 788.0,298.9 791.0,293.0 794.0,290.1 797.0,290.7 800.0,294.7 803.0,301.4 806.0,309.7 809.0,318.3 812.0,326.1 815.0,332.0 818.0,335.4 821.0,335.9 824.0,333.5 827.0,328.3 830.0,321.1 833.0,312.6 836.0,304.0 839.0,296.7 842.0,291.7 845.0,290.0 848.0,291.8 851.0,296.8 854.0,304.4 857.0,313.3 860.0,322.5 863.0,331.1 866.0,338.3 869.0,344.0 872.0,348.1 875.0,351.0 878.0,352.7 881.0,353.8 884.0,354.4 887.0,354.7 890.0,354.9" fill="none" stroke="#21866f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="321" y="303" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="33" font-weight="700" text-anchor="middle">=</text>
+<text x="621" y="303" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="33" font-weight="700" text-anchor="middle">+</text>
+<text x="179" y="407" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="middle">point-charge comb</text>
+<text x="479" y="407" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="middle">local, neutral</text>
+<text x="779" y="407" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="middle">smooth, periodic</text>
+<text x="48" y="500" fill="#5d7180" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" text-anchor="start">The local part has zero net charge; the smooth part has a Fourier sum.</text>
+</svg>
