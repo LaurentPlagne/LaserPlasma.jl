@@ -28,6 +28,17 @@ jobs:
           - version: 'nightly'
             os: ubuntu-latest
 
+    env:
+      # GLMakie is a dependency of the package but is imported by no source file:
+      # it exists so that `using GLMakie` works interactively in this environment.
+      # It cannot precompile on a macOS runner, which has no GPU and no software
+      # OpenGL fallback -- "GLFWError (FORMAT_UNAVAILABLE): NSGL: Failed to find a
+      # suitable pixel format". On Linux, xvfb plus Mesa supplies one; macOS has no
+      # equivalent. The test suite loads only LaserPlasma and Test, so skipping the
+      # automatic precompilation of the whole environment avoids touching GLMakie
+      # at all. Tests then compile in memory: slower, identical results.
+      JULIA_PKG_PRECOMPILE_AUTO: ${{ matrix.os == 'macOS-latest' && '0' || '1' }}
+
     steps:
       - uses: actions/checkout@v4
 
