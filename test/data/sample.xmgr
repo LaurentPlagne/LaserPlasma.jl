@@ -1,0 +1,27 @@
+@with g0
+@g0 type logxy
+@    title "sample"
+@    xaxis label "x"
+@    yaxis label "y"
+@    world xmin 0.1
+@    world xmax 10.0
+@    world ymin 0.001
+@    world ymax 1.0
+@target S0
+@type xy
+0.1 0.01
+1.0 0.1
+10.0 1.0
+&
+@target S1
+@    s1 legend "points"
+@type xydy
+0.5 0.05 0.01
+1.5 0.15 0.02
+&
+@WITH G1
+@TARGET G1.S2
+@TYPE xy
+2.0 0.2
+3.0 0.3
+&

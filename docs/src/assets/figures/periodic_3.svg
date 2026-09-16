@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Minimum-image separation">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M 0 0 L 10 4 L 0 8 z" fill="#183047"/></marker></defs>
+<rect x="0" y="0" width="960" height="540" rx="0" fill="#f3f7fa" stroke="none" stroke-width="1"/>
+<text x="48" y="51" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" text-anchor="start">Minimum-image separation</text>
+<text x="48" y="81" fill="#5d7180" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">The nearest image gives the pair displacement</text>
+<rect x="300" y="112" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<rect x="412" y="112" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<rect x="524" y="112" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<rect x="300" y="224" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<rect x="412" y="224" width="112" height="112" rx="0" fill="#e9f3fb" stroke="#2866a0" stroke-width="3"/>
+<rect x="524" y="224" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<rect x="300" y="336" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<rect x="412" y="336" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<rect x="524" y="336" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<circle cx="488" cy="300" r="10" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="550" cy="300" r="10" fill="#d54c40" stroke="white" stroke-width="2"/>
+<line x1="501" y1="300" x2="536" y2="300" stroke="#21866f" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="660" y="294" fill="#21866f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start">short periodic</text>
+<text x="660" y="319" fill="#21866f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="start">displacement</text>
+<text x="48" y="500" fill="#5d7180" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" text-anchor="start">The Ewald correction accounts for the other periodic images.</text>
+</svg>

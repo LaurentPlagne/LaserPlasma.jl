@@ -1,0 +1,81 @@
+name: Documentation
+
+on:
+  push:
+    branches: [main]
+    tags: ['*']
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+jobs:
+  docs:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write        # push the rendered site to the gh-pages branch
+      pull-requests: read    # preview builds on pull requests
+      statuses: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: julia-actions/setup-julia@v2
+        with:
+          version: '1.12'
+      - uses: julia-actions/cache@v2
+
+      # The guide is hand-written Markdown and pulls in no docstrings, so this
+      # environment needs Documenter alone — the package and its plotting
+      # dependencies are not installed here.
+      - name: Instantiate docs environment
+        run: julia --project=docs -e 'using Pkg; Pkg.instantiate()'
+
+      - name: Build and deploy
+        run: julia --project=docs --color=yes docs/make.jl
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
+
+  # The displayed figures are committed, so the docs build does not regenerate
+  # them. This job checks that the scripts that produce them still run, without
+  # blocking a documentation deployment if a plotting dependency breaks.
+  figures:
+    name: Regenerate figures
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install OpenGL stack for GLMakie
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            xvfb xorg-dev mesa-utils libgl1 libglx-mesa0 freeglut3-dev \
+            libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libxext-dev
+      - uses: julia-actions/setup-julia@v2
+        with:
+          version: '1.12'
+      - uses: julia-actions/cache@v2
+      - uses: julia-actions/julia-buildpkg@v1
+      - name: Rebuild every figure
+        run: xvfb-run -a julia --project=. figures/build_all.jl
+      # PNG and SVG rebuild byte-identically; the PDFs do not, because Cairo
+      # embeds a creation timestamp, so they differ by a byte or two on every
+      # run regardless of content. Compare only the deterministic formats.
+      - name: Report any drift against the committed images
+        run: |
+          if git diff --quiet -- 'docs/src/assets/figures/*.png' 'docs/src/assets/figures/*.svg'; then
+            echo "committed PNG and SVG figures match a fresh rebuild"
+          else
+            echo "::warning::rebuilt figures differ from the committed ones"
+            git diff --stat -- 'docs/src/assets/figures/*.png' 'docs/src/assets/figures/*.svg'
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: figures
+          path: figures/out/

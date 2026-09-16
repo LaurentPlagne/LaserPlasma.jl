@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Build a spatial tree">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M 0 0 L 10 4 L 0 8 z" fill="#183047"/></marker></defs>
+<rect x="0" y="0" width="960" height="540" rx="0" fill="#f3f7fa" stroke="none" stroke-width="1"/>
+<text x="48" y="51" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" text-anchor="start">Build a spatial tree</text>
+<text x="48" y="81" fill="#5d7180" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">Subdivide occupied cells, then store their moments</text>
+<rect x="45" y="132" width="268" height="305" rx="12" fill="white" stroke="#dce5ec" stroke-width="1"/>
+<text x="63" y="168" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="start">particles</text>
+<rect x="80" y="190" width="200" height="200" rx="0" fill="#f7fafc" stroke="#183047" stroke-width="1"/>
+<rect x="345" y="132" width="268" height="305" rx="12" fill="white" stroke="#dce5ec" stroke-width="1"/>
+<text x="363" y="168" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="start">four cells</text>
+<rect x="380" y="190" width="200" height="200" rx="0" fill="#f7fafc" stroke="#183047" stroke-width="1"/>
+<rect x="645" y="132" width="268" height="305" rx="12" fill="white" stroke="#dce5ec" stroke-width="1"/>
+<text x="663" y="168" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="start">refine busy cells</text>
+<rect x="680" y="190" width="200" height="200" rx="0" fill="#f7fafc" stroke="#183047" stroke-width="1"/>
+<line x1="480" y1="190" x2="480" y2="390" stroke="#5d7180" stroke-width="1"/>
+<line x1="380" y1="290" x2="580" y2="290" stroke="#5d7180" stroke-width="1"/>
+<line x1="780" y1="190" x2="780" y2="390" stroke="#5d7180" stroke-width="1"/>
+<line x1="680" y1="290" x2="880" y2="290" stroke="#5d7180" stroke-width="1"/>
+<line x1="830" y1="190" x2="830" y2="290" stroke="#5d7180" stroke-width="1"/>
+<line x1="780" y1="240" x2="880" y2="240" stroke="#5d7180" stroke-width="1"/>
+<circle cx="108.0" cy="230.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="408.0" cy="230.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="708.0" cy="230.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="122.0" cy="338.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="422.0" cy="338.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="722.0" cy="338.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="160.0" cy="312.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="460.0" cy="312.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="760.0" cy="312.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="218.0" cy="220.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="518.0" cy="220.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="818.0" cy="220.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="232.0" cy="248.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="532.0" cy="248.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="832.0" cy="248.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="244.0" cy="356.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="544.0" cy="356.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="844.0" cy="356.0" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="48" y="500" fill="#5d7180" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" text-anchor="start">The actual code uses an octree in three dimensions.</text>
+</svg>

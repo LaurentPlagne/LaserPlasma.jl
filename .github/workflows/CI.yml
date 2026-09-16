@@ -1,0 +1,88 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    tags: ['*']
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: ${{ github.ref != 'refs/heads/main' }}
+
+jobs:
+  test:
+    name: Julia ${{ matrix.version }} · ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 60
+    permissions:
+      actions: write
+      contents: read
+    strategy:
+      fail-fast: false
+      matrix:
+        version: ['1.12']
+        os: [ubuntu-latest, macOS-latest]
+        include:
+          - version: 'nightly'
+            os: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      # The package depends on CairoMakie and GLMakie (used by figures/, not by
+      # src/). GLMakie needs an OpenGL stack, which a headless runner does not
+      # have, so install one and run the tests under a virtual X server.
+      - name: Install OpenGL stack for GLMakie (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            xvfb xorg-dev mesa-utils libgl1 libglx-mesa0 freeglut3-dev \
+            libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libxext-dev
+
+      - uses: julia-actions/setup-julia@v2
+        with:
+          version: ${{ matrix.version }}
+      - uses: julia-actions/cache@v2
+      - uses: julia-actions/julia-buildpkg@v1
+
+      - uses: julia-actions/julia-runtest@v1
+        with:
+          prefix: ${{ runner.os == 'Linux' && 'xvfb-run -a' || '' }}
+
+      - uses: julia-actions/julia-processcoverage@v1
+      - uses: codecov/codecov-action@v4
+        with:
+          files: lcov.info
+          token: ${{ secrets.CODECOV_TOKEN }}
+          fail_ci_if_error: false
+
+  # The example in the guide is the quickest end-to-end check that the
+  # documented entry point still runs and writes what the guide says it writes.
+  example:
+    name: Documented example
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install OpenGL stack for GLMakie
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            xvfb xorg-dev mesa-utils libgl1 libglx-mesa0 freeglut3-dev \
+            libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev libxext-dev
+      - uses: julia-actions/setup-julia@v2
+        with:
+          version: '1.12'
+      - uses: julia-actions/cache@v2
+      - uses: julia-actions/julia-buildpkg@v1
+      - name: Run examples/first_run.jl
+        run: xvfb-run -a julia --project=. examples/first_run.jl
+      - name: Check it wrote the documented outputs
+        run: |
+          for f in energy.dat power.dat deltaU pos_0001 mome_0001 ion_pos.dat; do
+            test -s "runs/first_run/$f" || { echo "missing or empty: $f"; exit 1; }
+          done
+          echo "all six output files present"

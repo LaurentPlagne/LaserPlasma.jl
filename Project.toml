@@ -1,0 +1,21 @@
+name = "LaserPlasma"
+uuid = "6f4a217f-e5f1-4ce4-ab93-5e76ef16284c"
+version = "0.1.0"
+authors = ["Laurent Plagne <laurent.plagne@gmail.com>"]
+
+[deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+
+[compat]
+CairoMakie = "0.15.14"
+GLMakie = "0.13.14"
+Printf = "1.11.0"
+julia = "^1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

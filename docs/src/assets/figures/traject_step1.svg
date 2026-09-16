@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Compare two estimates">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M 0 0 L 10 4 L 0 8 z" fill="#183047"/></marker></defs>
+<rect x="0" y="0" width="960" height="540" rx="0" fill="#f3f7fa" stroke="none" stroke-width="1"/>
+<text x="48" y="51" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" text-anchor="start">Compare two estimates</text>
+<text x="48" y="81" fill="#5d7180" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">One RK4 step versus two half-steps</text>
+<rect x="70" y="126" width="820" height="324" rx="12" fill="white" stroke="#dce5ec" stroke-width="1"/>
+<circle cx="478" cy="330" r="22" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="478" y="336" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<polyline points="120.0,220.0 270.0,263.0 385.0,276.0 455.0,265.0 510.0,240.0 570.0,198.0 795.0,175.0" fill="none" stroke="#2866a0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="120.0,340.0 345.0,350.0 570.0,357.0 795.0,362.0" fill="none" stroke="#21866f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<polyline points="120.0,220.0 795.0,175.0" fill="none" stroke="#d54c40" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 7"/>
+<circle cx="120" cy="220" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="795" cy="175" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="120" cy="340" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="795" cy="362" r="7" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="470" y="162" fill="#d54c40" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" text-anchor="middle">compare end positions</text>
+<text x="750" y="405" fill="#21866f" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="end">quiet particle</text>
+<text x="48" y="500" fill="#5d7180" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" text-anchor="start">This is a schematic of the recursive individual-step integrator.</text>
+</svg>

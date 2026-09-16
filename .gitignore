@@ -1,0 +1,18 @@
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+/deps/deps.jl
+/docs/build
+/runs
+/figures/out
+Manifest.toml
+/benchmarks/out
+checks.json
+
+# Internal working material, deliberately not published (see full-history branch)
+/AGENTS.md
+/benchmarks
+/docs/article
+/docs/notes
+/docs/reprise
+/figures/nu_ei_resolution.jl
