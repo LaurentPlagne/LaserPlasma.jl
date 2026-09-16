@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Barnes–Hut: near or far?">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M 0 0 L 10 4 L 0 8 z" fill="#183047"/></marker></defs>
+<rect x="0" y="0" width="960" height="540" rx="0" fill="#f3f7fa" stroke="none" stroke-width="1"/>
+<text x="48" y="51" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" text-anchor="start">Barnes–Hut: near or far?</text>
+<text x="48" y="81" fill="#5d7180" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">Open nearby cells; approximate distant cells by multipoles</text>
+<rect x="75" y="145" width="810" height="300" rx="12" fill="white" stroke="#dce5ec" stroke-width="1"/>
+<rect x="105" y="185" width="238" height="220" rx="0" fill="#f6f9fc" stroke="#2866a0" stroke-width="2"/>
+<line x1="224" y1="185" x2="224" y2="405" stroke="#9eb5c5" stroke-width="1"/>
+<line x1="105" y1="295" x2="343" y2="295" stroke="#9eb5c5" stroke-width="1"/>
+<circle cx="145" cy="228" r="8" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="193" cy="339" r="8" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="268" cy="231" r="8" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="299" cy="358" r="8" fill="#2866a0" stroke="white" stroke-width="2"/>
+<circle cx="736" cy="296" r="20" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="736" y="302" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<circle cx="224" cy="295" r="18" fill="#db9a32" stroke="white" stroke-width="2"/>
+<line x1="244" y1="295" x2="708" y2="295" stroke="#21866f" stroke-width="3" stroke-dasharray="8 7"/>
+<text x="480" y="275" fill="#21866f" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" text-anchor="middle">distance d</text>
+<text x="224" y="423" fill="#2866a0" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="400" text-anchor="middle">cell size s</text>
+<text x="480" y="358" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" text-anchor="middle">accept cell when s / d &lt; θ</text>
+<text x="48" y="500" fill="#5d7180" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" text-anchor="start">The historical runs use θ = 0.5 and include quadrupole moments.</text>
+</svg>

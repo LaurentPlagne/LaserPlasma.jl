@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Periodic copies">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M 0 0 L 10 4 L 0 8 z" fill="#183047"/></marker></defs>
+<rect x="0" y="0" width="960" height="540" rx="0" fill="#f3f7fa" stroke="none" stroke-width="1"/>
+<text x="48" y="51" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" text-anchor="start">Periodic copies</text>
+<text x="48" y="81" fill="#5d7180" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">Every charge has infinitely many images</text>
+<rect x="300" y="112" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<circle cx="325.76" cy="145.6" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="325.76" y="151.6" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="376.16" cy="132.16" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="376.16" y="138.16" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<circle cx="384.0" cy="192.64" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="384.0" y="198.64" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="335.84000000000003" cy="193.76" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="335.84000000000003" y="199.76" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<rect x="412" y="112" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<circle cx="437.76" cy="145.6" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="437.76" y="151.6" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="488.16" cy="132.16" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="488.16" y="138.16" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<circle cx="496.0" cy="192.64" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="496.0" y="198.64" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="447.84000000000003" cy="193.76" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="447.84000000000003" y="199.76" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<rect x="524" y="112" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<circle cx="549.76" cy="145.6" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="549.76" y="151.6" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="600.16" cy="132.16" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="600.16" y="138.16" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<circle cx="608.0" cy="192.64" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="608.0" y="198.64" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="559.84" cy="193.76" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="559.84" y="199.76" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<rect x="300" y="224" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<circle cx="325.76" cy="257.6" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="325.76" y="263.6" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="376.16" cy="244.16" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="376.16" y="250.16" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<circle cx="384.0" cy="304.64" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="384.0" y="310.64" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="335.84000000000003" cy="305.76" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="335.84000000000003" y="311.76" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<rect x="412" y="224" width="112" height="112" rx="0" fill="#e9f3fb" stroke="#2866a0" stroke-width="3"/>
+<circle cx="437.76" cy="257.6" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="437.76" y="263.6" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="488.16" cy="244.16" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="488.16" y="250.16" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<circle cx="496.0" cy="304.64" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="496.0" y="310.64" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="447.84000000000003" cy="305.76" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="447.84000000000003" y="311.76" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<rect x="524" y="224" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<circle cx="549.76" cy="257.6" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="549.76" y="263.6" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="600.16" cy="244.16" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="600.16" y="250.16" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<circle cx="608.0" cy="304.64" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="608.0" y="310.64" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="559.84" cy="305.76" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="559.84" y="311.76" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<rect x="300" y="336" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<circle cx="325.76" cy="369.6" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="325.76" y="375.6" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="376.16" cy="356.16" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="376.16" y="362.16" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<circle cx="384.0" cy="416.64" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="384.0" y="422.64" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="335.84000000000003" cy="417.76" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="335.84000000000003" y="423.76" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<rect x="412" y="336" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<circle cx="437.76" cy="369.6" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="437.76" y="375.6" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="488.16" cy="356.16" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="488.16" y="362.16" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<circle cx="496.0" cy="416.64" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="496.0" y="422.64" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="447.84000000000003" cy="417.76" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="447.84000000000003" y="423.76" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<rect x="524" y="336" width="112" height="112" rx="0" fill="white" stroke="#bdccd7" stroke-width="1"/>
+<circle cx="549.76" cy="369.6" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="549.76" y="375.6" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="600.16" cy="356.16" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="600.16" y="362.16" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<circle cx="608.0" cy="416.64" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="608.0" y="422.64" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="559.84" cy="417.76" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="559.84" y="423.76" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<text x="48" y="500" fill="#5d7180" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" text-anchor="start">The Ewald correction accounts for the other periodic images.</text>
+</svg>

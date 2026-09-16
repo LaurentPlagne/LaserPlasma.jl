@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="One simulation box">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M 0 0 L 10 4 L 0 8 z" fill="#183047"/></marker></defs>
+<rect x="0" y="0" width="960" height="540" rx="0" fill="#f3f7fa" stroke="none" stroke-width="1"/>
+<text x="48" y="51" fill="#183047" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700" text-anchor="start">One simulation box</text>
+<text x="48" y="81" fill="#5d7180" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" text-anchor="start">Electrons can cross the boundary</text>
+<rect x="260" y="145" width="320" height="320" rx="0" fill="#e9f3fb" stroke="#2866a0" stroke-width="3"/>
+<circle cx="333.6" cy="241.0" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="333.6" y="247.0" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="477.6" cy="202.6" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="477.6" y="208.6" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<circle cx="500.0" cy="375.4" r="13" fill="#d54c40" stroke="white" stroke-width="2"/>
+<text x="500.0" y="381.4" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">+</text>
+<circle cx="362.4" cy="378.6" r="13" fill="#2866a0" stroke="white" stroke-width="2"/>
+<text x="362.4" y="384.6" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" text-anchor="middle">−</text>
+<line x1="480" y1="317" x2="650" y2="317" stroke="#2866a0" stroke-width="4" marker-end="url(#arrow)"/>
+<text x="658" y="324" fill="#2866a0" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="400" text-anchor="start">wrap</text>
+<text x="48" y="500" fill="#5d7180" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="400" text-anchor="start">The Ewald correction accounts for the other periodic images.</text>
+</svg>
